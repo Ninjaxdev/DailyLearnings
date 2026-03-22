@@ -1,7 +1,0 @@
-we put all the static file (jo file hme as it is dikhane hoti hain )
-un files ko hm static folder mae dalte hn.
-
-@app.route('/about')  ---> ese hm home,about trh trh ke section create krte hn website pr
-def about():
-    return "This is a simple Flask application."
-
