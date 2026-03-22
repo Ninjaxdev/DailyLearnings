@@ -1,0 +1,66 @@
+<dog> </dog> :tag
+div ek rectangle hota hai jiski width hoti hai and height nhi hoti ,
+div ki height apne childrens ke height ke brabr hoti hai child height a,b,c :div height =a+b+c
+# se id access krte hn ,id ka name repeat nhi krna
+. se class access krte hn ,class ka name repeat kr skte hn
+<form>
+<input> input ki id , label ke for tag mae same hogi
+<label>
+<select> ->drop down menue ke sath <option> in select write multiple to select multiple option with ctrl+clcik to select multiple options
+<text area>
+<option>
+<button>
+<field set> legend
+radio=name same rkhna hota hai
+</form>
+
+css 
+//css boilerplate code {hr css file mae likhna hi likhna hai}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+when to use % and px(pixel)
+% for large styling suppose 10%,20%,50%,100%
+px for small styling (at pixel level)
+
+margin:margin hota hai do elements ke beech mae space
+padding:padding hota hai ek element ke andar space
+
+there are four values:top,right,down,left
+
+padding: 10px 30px 10px 30px;
+margin: 20px 50px;
+
+image->background-size and background-position
+
+position absolute(hm cheezon ko upper uthate hn and rest cheze uski space le leti hn)
+position relative(jo cheez hmne position absolute se uper uthai hai vo container ke boundary ke bahar na chla jye is liye hm position relative use krte hn)
+jis mae bhi hme element ko rkhna hota hai use hm position relative bnate hn
+
+position : absolute,fixed,static,sticky
+bydefault:static
+top,left,right bhi hota hai position ke sath
+position:absolute layer wise uthenge 
+car1
+car2
+car3
+sb pr position:absolute lagaya toh car3 top pr,car 2 middle pr and car 1 bottom layer pr honge
+suppose kro ek element hai wo position:absolute hai and uske andar child hai to us element ko position:relative kese bnae 
+ek element same time pr absolute and relative perform krega (relative for child )
+
+flex box:
+display:flex for parent
+flex ki do imaginary axsis hoti hian 1(top se bottom) & 2(left se right)
+(left se right)justify-content for width
+(top se bottom)align-item for height
+
+
+

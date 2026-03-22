@@ -1,0 +1,75 @@
+react is js library to maintain front end efficiently mvc (model view controller)mae view wale part ko
+smbhal ta hai,use to built single page application.(vite app hai raw react use hota hai)
+
+efficient and light-weight hai
+
+create components and make data if you need it,link the data and change data whenever you want ,
+react will react jb bhi data change hoga 
+
+single page means->UI does not reload when user go from one page to another and gave better user experience
+
+JSX->javascript syntax extention(javascript XML)
+
+you can break your whole website in components 
+
+2013 mae facebook ke engineer ne (react js)library bnai
+
+yeh main DOM tree ko update nhi krti directly,is library ka apna DOM tree hai uska name hai virtual DOM ye 
+DOM tree exact copy hai DOM tree ka bs ek differece hai jb bhi virtual DOM mae kuch change hoga to sirf
+use change kiya jyega jo ki change hua hai naa ki poora tree ko refresh kiya jyega.
+
+(refresh hote hue apko nhi dikhega pr behind da  seen refresh hoga agar koi change hua hai to )
+
+browser ka nature hota hai jab bhi page mein kuchh bhi change ho to pura DOM tree refresh karo,jiski wajha se 
+poora page re-render hoga,jo ki kaafi ineficient hai,matlab ki socho agar ek change par DOM ek bar refresh ho 
+rha hai to 1 lakh change pr 1 lakh baar refresh hoga,jise browser crash ho jyega.
+
+react feature
+1)less page reload
+2)extreme use of reusable components
+3)bhaut sari opportunity
+4)website mae app jesa feel hoga
+5)very efficient
+
+(react se animation padho)
+
+npm run dev se code chelga terminal pr type krna
+
+C:\Users\admin\Desktop\project\firstreactapp>npm run dev (cmd)
+
+folder structure
+
+public mae static data put krna hai like images,video etc 
+assets same as public static data put krte hain 
+
+aap components bnate ho aur yeh sare components jate hain ek parent component par,aur parent component ko
+body mein put kar diya jaata hai.
+
+component:ek function hai jo ki return krega JSX //like a lego
+jsx->html ki trh dikhane wala syntax but uske pass kuch superpower hai jo html ke pass nhi hai
+eg: in html <h1>2+2</h1> ans 2+2
+but in jsx <h1>{2+2}</h1> ans 4
+1)repeatable cheez component bnega eg:button
+2)jo bdi cheez(area,chunck) hai wo bhi component bnaegi
+
+styling krni hai react mein: modules css ,external css (tailwind css),material ui,inline(tailwindcss use krenge hm)
+
+if sometime your changes not load on browser run this cmd  npm run dev -- --port=3001 
+
+props->(it is like a parameter)properties ,read only properties that are shared btw components,
+a parent component can send data to a child component
+<component key=value />
+
+props types= a mechanism that ensures that the passed value is of the correct datatype.
+eg:propTypes.number
+if you pass wrong prop type in variable then it wont stop it to run but give warning if you check in console of your browser
+
+default props=default values for props in case they are not passed from the parent component
+eq:name:"Guest"
+{} used for dynamic value assignment
+
+conditional rendering:it allows you to control what gets rendered in your application based on certain conditions
+(show,hide,or change component)
+
+click event=an interaction when  a user clicks on a specific element we can respond 
+ to click by passing a call-back to the onclick event handler
