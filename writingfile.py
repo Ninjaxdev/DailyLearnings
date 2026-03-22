@@ -1,0 +1,6 @@
+f=open("wbc.txt",'w')
+f.write("hello fellos i am learning python")
+f.write("\nyooooo whats up jonhy")
+f.writelines("you are bad kido")
+f.write("why its not working ahhhh")
+f.close()

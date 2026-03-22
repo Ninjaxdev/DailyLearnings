@@ -1,0 +1,7 @@
+f=open("xyz.txt",'r+')
+f.write("hello admin")
+f.writelines("\nhow are you doinn fellas")
+f.writelines("\nhope so you are doinn gud")
+text=f.read()
+print(text)
+f.close()

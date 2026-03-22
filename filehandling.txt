@@ -1,0 +1,34 @@
+f=open("fileName","mode")
+fileName=abc.txt
+mode=r : for reading file 
+w : open for writing and truncate the file
+x : create a new file and open it for writing
+a : open for writing,open file for appending the data
++ : open disk file for updating (read and write)
+b : open file in binary mode
+t : open file in text mode
+rb :read binary file
+rw :write in binary file
+r+,w+,a+,x+
+
+w+ : pointer ko at the end place krta hai toh read nhi hoga kuch bhi pr file read and write ke liye open hoti hahi
+r+ : pointer starting mae chla jata hai 
+
+data=f.read()
+read(no of characters)
+readline() ->read text line by line
+f.close()
+
+with syntax error handling (automatic close krta hai with) krta hai bs baki normal functionality 
+
+with open("filename","mode") as f:
+      data=f.read()
+
+as : alias /nickname 
+
+deleting a file : using modules(code library)
+
+os modules : os.remove("filename")
+
+.find(word) : to find a word
+.replace("hello","hi")

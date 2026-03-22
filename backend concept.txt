@@ -1,0 +1,24 @@
+backend concept
+
+communication protocols
+
+1 - > communication protocols - TCP AND UDP 
+2 - > HTTP 
+3 - >bidirectional communication , web socket,GRPC
+
+web server 
+
+data base engineering 
+
+proxies and reverse proxies
+
+caching 
+
+messaging system
+
+API web framework 
+
+message formats
+
+security
+
